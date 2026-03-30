@@ -1,12 +1,20 @@
 # Claude Code Toolkit
 
-**The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills (+400,000 via [SkillKit](https://agenstskills.com)), 42 commands, 176+ plugins, 20 hooks, 15 rules, 7 templates, 9 MCP configs, 24 companion apps, and more.**
+**The most comprehensive toolkit for Claude Code -- 135 agents, 35 curated skills (+400,000 via [SkillKit](https://agenstskills.com)), 42 commands, 176+ plugins, 20 hooks, 15 rules, 7 templates, 13 MCP configs, 26 companion apps, 51 ecosystem entries, and more.**
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Last Updated](https://img.shields.io/badge/Last%20Updated-Mar%202026-orange.svg)](#)
 [![Files](https://img.shields.io/badge/Files-850+-blueviolet.svg)](#project-structure)
+
+<a href="https://star-history.com/#rohitg00/awesome-claude-code-toolkit&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=rohitg00/awesome-claude-code-toolkit&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=rohitg00/awesome-claude-code-toolkit&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=rohitg00/awesome-claude-code-toolkit&type=Date" width="600" />
+  </picture>
+</a>
 
 ---
 
@@ -41,12 +49,14 @@ curl -fsSL https://raw.githubusercontent.com/rohitg00/awesome-claude-code-toolki
 - [Hooks](#hooks) (20 scripts)
 - [Rules](#rules) (15)
 - [Templates](#templates) (7)
-- [MCP Configs](#mcp-configs) (9)
+- [MCP Configs](#mcp-configs) (13)
 - [Contexts](#contexts) (5)
 - [Examples](#examples) (3)
 - [Companion Apps & GUIs](#companion-apps--guis)
 - [Ecosystem](#ecosystem)
 - [Setup](#setup)
+- [Resources](#resources)
+- [Related Awesome Lists](#related-awesome-lists)
 - [Contributing](#contributing)
 
 ---
@@ -769,7 +779,7 @@ cp templates/claude-md/standard.md CLAUDE.md
 
 ## MCP Configs
 
-Eight curated Model Context Protocol server configurations.
+Thirteen curated Model Context Protocol server configurations.
 
 | Config | File | Servers Included |
 |--------|------|-----------------|
@@ -782,6 +792,10 @@ Eight curated Model Context Protocol server configurations.
 | DevOps | [`devops.json`](mcp-configs/devops.json) | AWS, Docker, GitHub, Terraform, Sentry |
 | Research | [`research.json`](mcp-configs/research.json) | BGPT scientific papers, Brave Search, Fetch, Memory, Filesystem |
 | Observability | [`observability.json`](mcp-configs/observability.json) | Iris eval & observability for agent tracing, quality evaluation, and cost tracking |
+| Security | [`security.json`](mcp-configs/security.json) | Ghidra reverse engineering, Snyk vulnerability scanning |
+| Design | [`design.json`](mcp-configs/design.json) | Figma design context, Blender 3D automation |
+| Workflow Automation | [`workflow-automation.json`](mcp-configs/workflow-automation.json) | n8n workflow builder, Pipedream integration |
+| Mobile | [`mobile.json`](mcp-configs/mobile.json) | Android ADB automation, Xcode build tools |
 
 ---
 
@@ -880,6 +894,8 @@ claude-code-toolkit/               850+ files
 | [KANBAII](https://github.com/martinmsaavedra/kanbaii) | new | AI-native kanban board for Claude Code — plan visually, track progress, let AI execute. Sequential engine (Ralph), parallel multi-agent (Teams), cost tracking, real-time dashboard. `npx kanbaii start` |
 | [Claude Session Visualizer](https://github.com/anaypaul/claude-session-visualizer) | new | Live visualization dashboard for Claude Code sessions with execution trees, token cost tracking, thinking trace exploration, and error debugging |
 | [CCHub](https://github.com/Moresl/cchub) | New | Tauri 2.0 desktop app for managing the full Claude Code ecosystem -- MCP servers, skills, hooks, config profiles. Auto-scans Claude Code, Claude Desktop, Cursor configs |
+| [AionUI](https://github.com/iOfficeAI/AionUi) | 20,500+ | Free local open-source 24/7 Cowork app for Gemini CLI, Claude Code, Codex, and OpenCode |
+| [chops](https://github.com/Shpigford/chops) | 1,000+ | macOS app to browse, edit, and manage skills across Claude Code, Cursor, Codex, Windsurf, and Amp |
 
 ---
 
@@ -930,6 +946,16 @@ Notable projects, directories, and resources across the Claude Code ecosystem.
 | [agent-dotfiles](https://github.com/saqibameen/agent-dotfiles) | new | Write AI coding rules once, sync to every agent. Supports Command Code, Claude Code, Cursor, Copilot, Codex, OpenCode. |
 | [zclean](https://github.com/whynowlab/zclean) | 19+ | Kills orphaned processes left behind by Claude Code and Codex. Stops zombie node/python/esbuild from eating your RAM |
 | [healthcare-agents](https://github.com/ajhcs/healthcare-agents) | New | 51 specialized healthcare administration agents with MHA-level expertise across 10 divisions -- revenue cycle, compliance, quality, clinical ops, payer relations, health IT, and more |
+| [cc-switch](https://github.com/farion1231/cc-switch) | 35,500+ | Cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, and Gemini CLI |
+| [claude-code-router](https://github.com/musistudio/claude-code-router) | 30,700+ | Use Claude Code as coding infrastructure foundation with custom model routing and interaction |
+| [SuperClaude](https://github.com/SuperClaude-Org/SuperClaude_Framework) | 22,000+ | Config framework with specialized commands, cognitive personas, and dev methodologies |
+| [claude-code-templates](https://github.com/davila7/claude-code-templates) | 23,800+ | CLI tool for configuring and monitoring Claude Code projects and workflows |
+| [planning-with-files](https://github.com/OthmanAdi/planning-with-files) | 17,600+ | Manus-style persistent markdown planning skill for structured project management |
+| [claude-hud](https://github.com/jarrodwatts/claude-hud) | 15,200+ | Plugin showing context usage, active tools, running agents, todo progress in a HUD overlay |
+| [awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | 15,600+ | 100+ specialized Claude Code subagents organized by domain |
+| [serena](https://github.com/oraios/serena) | 22,200+ | Semantic retrieval and editing MCP server for coding agents -- code-aware search and navigation |
+| [Understand-Anything](https://github.com/Lum1104/Understand-Anything) | 7,000+ | Turns any codebase into an interactive knowledge graph for exploration |
+| [n8n-mcp](https://github.com/czlonkowski/n8n-mcp) | 17,000+ | MCP for Claude Code to build and manage n8n automation workflows |
 
 ---
 
@@ -937,6 +963,36 @@ Notable projects, directories, and resources across the Claude Code ecosystem.
 
 - [XVARY Stock Research](https://github.com/xvary-research/claude-code-stock-analysis-skill) — Claude Code skill for public SEC EDGAR + market data: `/analyze`, `/score`, `/compare`. MIT.
 
+---
+
+## Resources
+
+Tutorials, guides, and deep-dives on Claude Code.
+
+| Resource | Type | Description |
+|----------|------|-------------|
+| [Claude Code Official Docs](https://docs.anthropic.com/en/docs/claude-code) | Docs | Official Anthropic documentation for Claude Code |
+| [Context Engineering Guide](https://www.anthropic.com/research/long-running-Claude) | Guide | Anthropic's guide to long-running Claude Code sessions and scientific computing |
+| [Auto Mode Engineering](https://www.anthropic.com/engineering/claude-code-auto-mode) | Blog | How Auto Mode's two-layer safety system works under the hood |
+| [Claude Code Hooks Mastery](https://github.com/disler/claude-code-hooks-mastery) | Tutorial | Complete mastery guide with production-ready hook scripts |
+| [Skills vs MCP vs Plugins](https://www.morphllm.com/context-engineering) | Guide | When to use which extension mechanism in Claude Code |
+| [Context Engineering 101](https://newsletter.victordibia.com/p/context-engineering-101-how-agents) | Article | Three core strategies: compaction, isolation, agentic memory |
+| [Agent Teams Explained](https://www.turingcollege.com/blog/claude-agent-teams-explained) | Guide | How multiple Claude Code instances coordinate as an AI engineering team |
+| [84 Best Practices](https://discuss.huggingface.co/t/10-essential-claude-code-best-practices-you-need-to-know/174731) | Collection | Community-compiled Claude Code best practices from Hugging Face |
+| [Claude Code Cheat Sheet](https://cc.storyfox.cz/) | Reference | One-page printable reference, auto-updated daily, 4 languages |
+| [Multi-Agent Orchestra](https://addyosmani.com/blog/code-agent-orchestra/) | Blog | Addy Osmani's survey of multi-agent coding patterns |
+
+## Related Awesome Lists
+
+| List | Stars | Focus |
+|------|-------|-------|
+| [awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | 5,300+ | Curated MCP servers across 30 categories |
+| [awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents) | 27,000+ | Open-source and closed-source AI agents |
+| [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 104,000+ | LLM-powered applications and multi-agent systems |
+| [awesome-claude-code (hesreallyhim)](https://github.com/hesreallyhim/awesome-claude-code) | 34,000+ | Skills, hooks, slash-commands, and orchestrators |
+| [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | 28,700+ | 1,326+ installable agentic skills with CLI |
+| [awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | 15,600+ | 100+ specialized Claude Code subagents |
+| [claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 25,000+ | Comprehensive reference implementation for Claude Code config |
 
 ## Contributing
 
