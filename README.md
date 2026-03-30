@@ -508,6 +508,7 @@ Thirty-five curated skill modules included in this repo, with access to **400,00
 | [ADHX](https://github.com/itsmemeworks/adhx) | `/plugin marketplace add itsmemeworks/adhx` or `curl -sL https://raw.githubusercontent.com/itsmemeworks/adhx/main/skills/adhx/SKILL.md -o ~/.claude/skills/adhx/SKILL.md` | Fetch any X/Twitter post as clean LLM-friendly JSON — no scraping, works with tweets and full X Articles |
 | [SkillNav](https://github.com/skillnav-dev/skillnav-skill) | `clawhub install HuiW86/skillnav` | Search 3,900+ MCP servers with install commands, get daily AI brief, query arXiv papers, and discover trending tools -- all in Chinese. Curated by skillnav.dev editorial team |
 
+| [Cost Optimizer](https://github.com/fullstackcrew-alpha/skill-cost-optimizer) | `git clone https://github.com/fullstackcrew-alpha/skill-cost-optimizer` | Save 60-80% on AI token costs with smart model routing, context compression, heartbeat tuning, usage reports, and config generation |
 ### Installing Skills
 
 **Browse and install via SkillKit** (recommended):
